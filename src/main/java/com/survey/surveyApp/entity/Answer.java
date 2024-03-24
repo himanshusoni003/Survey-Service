@@ -13,8 +13,6 @@ public class Answer {
     private String answerText;
     private Long questionId;
     private Long userId;
-//    @ManyToOne
-//    private SurveyResponse surveyResponse;
 	
 	public Long getId() {
 		return id;
@@ -40,13 +38,5 @@ public class Answer {
 	public void setUserId(Long userId) {
 		this.userId = userId;
 	}
-	
-	
-//	public SurveyResponse getSurveyResponse() {
-//		return surveyResponse;
-//	}
-//	public void setSurveyResponse(SurveyResponse surveyResponse) {
-//		this.surveyResponse = surveyResponse;
-//	}
 	
 }
